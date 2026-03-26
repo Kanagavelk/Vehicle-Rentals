@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="index" href="index.html">
+    <link rel="Bookingpage" href="booking.html">
+    <link rel="contactpage" href="contact.html">
+</head>
+<body>
+     <header>
+    <h1>EasyRide Vehicle Rentals</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Vehicles</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <section id="booking">
+    <h2>Book Your Ride</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+
+      <label for="date">Rental Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="days">Number of Days:</label>
+      <input type="number" id="days" name="days" min="1" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+    
+    
+</body>
+</html>
